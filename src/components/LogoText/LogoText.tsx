@@ -2,7 +2,7 @@ import { StyledLogoText } from "./styled";
 
 const LogoText = () => {
     return (
-            <StyledLogoText>Burger</StyledLogoText>
+           <StyledLogoText>Burger</StyledLogoText>
     );
   };
   
