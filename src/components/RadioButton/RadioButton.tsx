@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import Text from "../Text/Text";
+import { StyledRadioButton } from "./styled";
 
-function RadioButton() {
-    const [checked, setChecked] = useState(true);
+const RadioButton = () => {
+
+  return (
+    <StyledRadioButton>
+      <input
+        type="checkbox"
+      />
+      <Text/>
+    </StyledRadioButton>
     
-    let msg;
-    if(checked){
-       msg = <span>галочка есть</span>
-    }else{
-       msg = <span>галочки нет</span>
-    }
- 
-    return <div>
-       <input type="checkbox" checked={checked} onChange={() => setChecked(!checked)} />
-       <span>{msg}</span>
-    </div>;
- }
+  );
+}
 
 export default RadioButton;

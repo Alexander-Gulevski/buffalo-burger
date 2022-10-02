@@ -2,7 +2,7 @@ import { StyledCompound } from "./styled";
 
 const Compound = () => {
     return (
-           <StyledCompound>Butch’s Wild BBQ Burger</StyledCompound>
+           <StyledCompound>Burger*, BBQ sauce, cheddar cheese, bacon, onion rings, lettuce & tomato.</StyledCompound>
     );
   };
   

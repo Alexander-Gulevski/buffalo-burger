@@ -7,6 +7,15 @@ const H2 = css`
   line-height: 75px;
   color: #ffffff;
 `;
+const H3 = css`
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+`;
+
 const logoText = css`
   font-family: "Aubrey";
   font-style: normal;
@@ -25,7 +34,8 @@ const p = css`
 `;
 
 export const typography = {
-    H2,
-    logoText,
-    p,
-}
+  H2,
+  H3,
+  logoText,
+  p,
+};

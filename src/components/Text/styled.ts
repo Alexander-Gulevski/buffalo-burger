@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { typography } from "../../ui/typography";
 
-export const StyledTitle = styled.h2`
-  ${typography.H2}
-  padding-bottom: 34px;
+export const StyledText = styled.p`
+  ${typography.p}
+  margin-left: 16px;
 `;
