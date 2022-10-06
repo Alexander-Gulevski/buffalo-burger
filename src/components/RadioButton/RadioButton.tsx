@@ -4,11 +4,11 @@ import { StyledRadioButton } from "./styled";
 const RadioButton = () => {
 
   return (
-    <StyledRadioButton>
-      <input
+    <StyledRadioButton><input
         type="checkbox"
+        id='1'
       />
-      <Text/>
+     <label htmlFor="1"><Text/></label>
     </StyledRadioButton>
     
   );

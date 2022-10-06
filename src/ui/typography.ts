@@ -8,7 +8,7 @@ const H2 = css`
   color: #ffffff;
 `;
 const H3 = css`
-  font-family: "Adamina";
+  font-family: "Andika";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -25,10 +25,10 @@ const logoText = css`
   color: #ffffff;
 `;
 const p = css`
-  font-family: "Adamina";
+  font-family: "Andika";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 30px;
   color: #ffffff;
 `;
