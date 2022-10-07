@@ -1,13 +1,17 @@
 import styled from "styled-components";
-
+import { Colors } from '../../ui/colors';
+interface IStyles {
+  handleClick: boolean;
+}
 export const StyledRadioButton = styled.div`
   display: flex;
   padding: 10px 15px;
-  border: 2px solid #9b491a;
+  border: 2px solid ${({ handleClick }:IStyles) => (handleClick ? Colors.BORDER_ACTIVE : Colors.BORDER_INACTIVE)};
   border-radius: 9px;
-  box-shadow: 2px 4px 8px #f36f22;
+  box-shadow: 2px 4px 8px ${({ handleClick }:IStyles) => (handleClick ? Colors.BORDER_ACTIVE : 'none')};
+  
   input {
-    position: absolute;
+    position: relative;
     z-index: -1;
     opacity: 0;
   }
@@ -31,6 +35,7 @@ export const StyledRadioButton = styled.div`
     cursor: pointer;
   }
   input:checked + label::before {
+    position: absolute;
     background-color: #f36f22;
     border: 2px solid #f36f22;
   }

@@ -1,11 +1,13 @@
 import { css } from "styled-components";
+import { Colors } from './colors';
+
 const H2 = css`
   font-family: "Aubrey";
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 75px;
-  color: #ffffff;
+  color: ${Colors.TEXT_WHITE};
 `;
 const H3 = css`
   font-family: "Andika";
@@ -13,7 +15,7 @@ const H3 = css`
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-  color: #ffffff;
+  color: ${Colors.TEXT_WHITE};
 `;
 
 const logoText = css`
@@ -22,7 +24,7 @@ const logoText = css`
   font-weight: 400;
   font-size: 40px;
   line-height: 42px;
-  color: #ffffff;
+  color: ${Colors.TEXT_WHITE};
 `;
 const p = css`
   font-family: "Andika";
@@ -30,7 +32,7 @@ const p = css`
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  color: #ffffff;
+  color: ${Colors.TEXT_WHITE};
 `;
 
 export const typography = {
