@@ -5,5 +5,6 @@ export const StyledItem = styled.div`
   ${typography.p}
   font-size: 22px;
   line-height: 35px;
+  cursor: pointer;
 `;
 ///move to separate text

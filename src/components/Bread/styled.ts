@@ -4,4 +4,5 @@ export const StyledBread = styled.div`
     display: flex;
     max-width: 582px;
     gap: 32px;
+    margin-bottom: 34px;
 `;

@@ -5,4 +5,6 @@ export const StyledLogoImage = styled.div`
     overflow: hidden;
     width: 70px;
     height: 70px;
+    cursor: pointer;
+
 `;

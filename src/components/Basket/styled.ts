@@ -7,4 +7,6 @@ export const StyledBasket = styled.div`
   height: 26px;
 
   background: no-repeat url(${backet});
+
+  cursor: pointer;
 `;

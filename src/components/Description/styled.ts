@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-export const StyledDescription = styled.div`
-
+export const StyledDescription = styled.div`x
 `;
 // display: grid;
 // grid-template-columns: 1fr;

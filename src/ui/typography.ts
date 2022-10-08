@@ -1,5 +1,5 @@
 import { css } from "styled-components";
-import { Colors } from './colors';
+import { Colors } from "./colors";
 
 const H2 = css`
   font-family: "Aubrey";
@@ -26,6 +26,7 @@ const logoText = css`
   line-height: 42px;
   color: ${Colors.TEXT_WHITE};
 `;
+
 const p = css`
   font-family: "Andika";
   font-style: normal;
@@ -35,9 +36,20 @@ const p = css`
   color: ${Colors.TEXT_WHITE};
 `;
 
+const button = css`
+  font-family: "Andika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: ${Colors.TEXT_BLACK};
+`;
+
 export const typography = {
   H2,
   H3,
   logoText,
   p,
+  button,
 };
