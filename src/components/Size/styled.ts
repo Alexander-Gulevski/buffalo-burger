@@ -5,5 +5,6 @@ export const StyledSize = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 35px;
   gap: 32px;
-  max-width: 584px;
+  max-width: 518px;
+  width: 100%;
 `;

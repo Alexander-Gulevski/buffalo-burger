@@ -4,6 +4,7 @@ const Button = () => {
   return (
     <StyledButton>
         $ 4,86 add to order
+        <div/>
     </StyledButton>
   );
 };

@@ -5,6 +5,7 @@ export const StyledBurger = styled.div`
 
     position: relative;
     max-width: 732px;
+    width: 100%;
     
     img{
         display: block;

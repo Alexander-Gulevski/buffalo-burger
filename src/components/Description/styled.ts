@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-export const StyledDescription = styled.div`x
+export const StyledDescription = styled.div`
+  max-width: 584px;
+  width: 100%;
+
+  margin: auto auto;
+  margin-right: 0;
 `;
-// display: grid;
-// grid-template-columns: 1fr;
-// grid-template-rows: repeat(7,1fr);

@@ -5,8 +5,8 @@ import { StyledButtonBlock } from "./styled";
 const ButtonBlock = () => {
   return (
     <StyledButtonBlock>
-        <Button/>
-        <Favorites/>
+      <Button />
+      <Favorites />
     </StyledButtonBlock>
   );
 };

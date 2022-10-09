@@ -10,10 +10,8 @@ const RadioButton = () => {
   };
   return (
     <StyledRadioButton onClick={handleClick} handleClick={isClick}>
-      <input type="checkbox" id="1" />
-      <label htmlFor="1">
-        <Text />
-      </label>
+      <div />
+      <Text />
     </StyledRadioButton>
   );
 };

@@ -1,48 +1,47 @@
 import styled from "styled-components";
-import { Colors } from '../../ui/colors';
+import { Colors } from "../../ui/colors";
 interface IStyles {
   handleClick: boolean;
 }
 export const StyledRadioButton = styled.div`
   display: flex;
+
   padding: 10px 15px;
-  border: 2px solid ${({ handleClick }:IStyles) => (handleClick ? Colors.BORDER_ACTIVE : Colors.BORDER_INACTIVE)};
+  border: 2px solid
+    ${({ handleClick }: IStyles) =>
+      handleClick ? Colors.BORDER_ACTIVE : Colors.BORDER_INACTIVE};
   border-radius: 9px;
-  box-shadow: 2px 4px 8px ${({ handleClick }:IStyles) => (handleClick ? Colors.BORDER_ACTIVE : 'none')};
-  
-  input {
-    position: relative;
-    z-index: -1;
-    opacity: 0;
-  }
-  input + label {
-    display: inline-flex;
-    align-items: center;
-    user-select: none;
-  }
-  input + label::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #f36f22;
+  box-shadow: 2px 4px 8px
+    ${({ handleClick }: IStyles) =>
+      handleClick ? Colors.BORDER_ACTIVE : "none"};
+  cursor: pointer;
+
+  div {
+    display: flex;
+    justify-content: center;
+
+    margin: auto 0;
+    margin-right: 15px;
+
+    width: 24px;
+    height: 24px;
+
     border-radius: 50%;
-    margin-right: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 50% 50%;
-    margin-right: 1px;
-    cursor: pointer;
-  }
-  input:checked + label::before {
-    position: absolute;
-    background-color: #f36f22;
-    border: 2px solid #f36f22;
-  }
-  input:not(:disabled):not(:checked) + label:hover::before {
-    border-color: #b3d7ff;
-  }
-  label {
-    cursor: pointer;
+    border: 2px solid
+      ${({ handleClick }: IStyles) =>
+        handleClick ? Colors.BORDER_ACTIVE : Colors.BORDER_INACTIVE};
+        &::before {
+      content: "";
+      display: 
+      ${({ handleClick }: IStyles) =>
+        handleClick ? "block" : "none"};
+      align-self: center;
+
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+
+      background-color: ${Colors.MAIN_ORANGE};
+    }
   }
 `;

@@ -3,5 +3,5 @@ import { typography } from "../../ui/typography";
 
 export const StyledText = styled.p`
   ${typography.p}
-  margin-left: 16px;
+  white-space: nowrap;
 `;

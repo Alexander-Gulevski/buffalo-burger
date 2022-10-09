@@ -9,6 +9,9 @@ export const GlobalStyles = createGlobalStyle`
     }
     body {
         background: ${Colors.BG_DARK};
-        
+        cursor: default;
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
     }
 `;

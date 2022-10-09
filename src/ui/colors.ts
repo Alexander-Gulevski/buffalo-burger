@@ -5,8 +5,8 @@ export enum Colors {
  
   BG_DARK ='linear-gradient(90.13deg, #050505 -1.32%, #2d3035 83.02%)',
 
-  TEXT_BLACK = '#000000',
-  TEXT_WHITE = '#ffffff',
+  BLACK = '#000000',
+  WHITE = '#ffffff',
   
   BORDER_ACTIVE = '#f36f22',
   BORDER_INACTIVE = '#9b491a',
