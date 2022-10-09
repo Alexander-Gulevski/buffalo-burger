@@ -10,7 +10,7 @@ export const StyledButton = styled.div`
 
   border-radius: 9px;
   border-style: double;
-  border-width: 3px;
+  border-width: thick;
 
   background-color: ${Colors.BUTTON};
   ${typography.button};
