@@ -1,12 +1,10 @@
 import styled from "styled-components";
+import { typography } from "../../ui/typography";
 
 export const StyledItem = styled.div`
-  font-family: "Adamina";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-
-  color: #ffffff;
+  ${typography.p}
+  font-size: 22px;
+  line-height: 35px;
+  cursor: pointer;
 `;
 ///move to separate text

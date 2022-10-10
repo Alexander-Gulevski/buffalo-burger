@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { typography } from "../../ui/typography";
 
-export const StyledLogoText =  styled.p`
-  ${typography.logoText}
-  margin: auto auto;
+export const StyledH3  =  styled.h3`
+  ${typography.H3}
+  margin-bottom: 15px;
 `;

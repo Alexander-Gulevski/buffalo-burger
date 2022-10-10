@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { Colors } from './ui/colors';
 
 export const GlobalStyles = createGlobalStyle`
     * {
@@ -7,6 +8,10 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
     body {
-        background: linear-gradient(90.13deg, #050505 -1.32%, #2D3035 83.02%);
+        background: ${Colors.BG_DARK};
+        cursor: default;
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
     }
 `;

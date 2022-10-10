@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const StyledDescription = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(7,1fr);
-  gap: 34px;
+  max-width: 584px;
+  width: 100%;
+
+  margin: auto auto;
+  margin-right: 0;
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { typography } from "../../ui/typography";
 
-export const StyledLogoText =  styled.p`
-  ${typography.logoText}
-  margin: auto auto;
+export const StyledText = styled.p`
+  ${typography.p}
+  white-space: nowrap;
 `;
